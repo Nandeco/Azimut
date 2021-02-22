@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azimut22 - Soluções Integradas & Serviçoes Especializados</title>
+    <meta name="description" content="Azimut22 - Soluções Integradas & Serviçoes Especializados">
+    <meta name="Keywords" content="Infraestrutura, Construção civil, Agronegócio, Mineração">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Fernando Martins">
+    <link rel="stylesheet" href="infra.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/LOGO.jpeg">
+</head>
+
+<body>
+    <a id="subirTopo">
+        ^ <br> subir
+    </a>
+    <header class="cabecalho">
+        <a href="index.html">
+            <h1 class="logo">Soluções Integradas & Serviçoes Especializados</h1>
+        </a>
+        <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="index.html#empresa">SOBRE A EMPRESA</a></li>
+                <li><a href="index.html#servico">SERVIÇOS</a></li>
+                <li><a href="index.html#clientes">CLIENTES</a></li>
+                <li><a href="index.html#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <video class="video" type="video/mp4" src="https://video.wixstatic.com/video/11062b_8b85f288687943b59677b4e3e56ef8f8/720p/mp4/file.mp4" autoplay loop>
+    </video>
+
+    <div class="banner">
+        <div class="title">
+            <h2>
+                INFRAESTRUTURA
+            </h2>
+            <h4>
+                Reunindo uma equipe com vasta experiência em obras de infraestrutura sobretudo na construção de rodovias, estruturas de obras de arte (pontes, viadutos e bueiros), barragens e túneis esse segmento da Azimut22 oferecerá o desenvolvimento.
+            </h4>
+        </div>
+    </div>
+
+    <div class="ponte">
+        <img src="img/ponte.png" alt="Ponte">
+    </div>
+
+
+    <div class="pb">
+        <div class="pb1">
+            <h3>
+                Projetos Básicos & Executivos
+            </h3>
+            <p>
+                A Azimut22 possui uma equipe de engenharia multidisciplinar que atua no desenvolvimento de projetos de engenharia para as diversas disciplinas relacionadas às obras de infraestrutura rodoviária, aeroportos, ferrovias e barragens e sistemas de abastecimento
+                e drenagem sempre trabalhando com o conceito de integração total nos seus processos de produção e almejando qualidade e menor tempo. As principais atividades desenvolvidas nos segmentos de projeto são:
+            </p>
+            <div class="li">
+                <ul>
+                    <li>- Terraplanagem e Terraplenos</li>
+                    <li>- Muros de Arrimos e Contenções</li>
+                    <li>- Pavimento Rodoviário e de Aeroportos</li>
+                    <li>- Infra e Supra estrutura de Ferrovias</li>
+                    <li>- Obras Hidráulicas (Barragens, canais e bueiros)</li>
+                    <li>- Sistema de Irrigação e saneamento</li>
+                    <li>- Adutoras e redes de drenagem</li>
+                    <li>- Pontes e Viadutos</li>
+                    <li>- Estudos de Adequação de Acessos Viários e Alternativas de Traçado</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".btn-menu").click(function() {
+            $(".menu").show();
+        });
+        $(".btn-close").click(function() {
+            $(".menu").hide();
+        });
+
+        /*voltar ao topo*/
+        jQuery(document).ready(function() {
+
+            jQuery("#subirTopo").hide();
+
+            jQuery('a#subirTopo').click(function() {
+                jQuery('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() > 1000) {
+                    jQuery('#subirTopo').fadeIn();
+                } else {
+                    jQuery('#subirTopo').fadeOut();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

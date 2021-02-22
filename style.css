@@ -1,0 +1,471 @@
+/*============RESET============*/
+
+
+/*#4f8188 verde escuro
+#9dd3af verde claro
+#f77334 laranja*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*voltar ao topo*/
+
+#subirTopo {
+    text-decoration: none;
+    background: #9dd3af;
+    bottom: 30px;
+    right: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    border: 0;
+    font-family: sans-serif;
+    opacity: .8;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+#subirTopo:hover {
+    opacity: 1;
+}
+
+body {
+    background-color: #f5f5f5;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*CABECALHO*/
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(img/LOGO.jpeg) center center/56px no-repeat;
+    font-size: 0;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, #9dd3af, #4f8188);
+}
+
+
+/*MENU*/
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.btn-close {
+    font-size: 1.5em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin: 2% 3% 0 0;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+}
+
+.menu li a {
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover {
+    border: 1px solid #f77334;
+}
+
+
+/*BANNER*/
+
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+}
+
+.title {
+    width: 100%;
+}
+
+.title h2 {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.title h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.video {
+    position: absolute;
+    right: 0;
+    width: auto;
+    height: 340px;
+    z-index: -1000;
+    background-size: cover;
+}
+
+
+/*A empresa*/
+
+.aempresa {
+    margin-top: 15px;
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    z-index: -1;
+}
+
+.empresa {
+    margin-top: 15%;
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    margin-bottom: 3%;
+    border: 5px solid #f77334;
+}
+
+.innerr {
+    padding: 7%;
+}
+
+.innerr a {
+    font-size: 1.5em;
+    color: #4f8188;
+    font-weight: 700;
+}
+
+.innerr p {
+    margin-top: 6%;
+    color: black;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 2%;
+    border: 3px solid #4f8188;
+    border-radius: 5px;
+}
+
+.buttons i {
+    float: right;
+}
+
+.equipe {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #f77334;
+}
+
+
+/*servicos*/
+
+.servicos {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.servico {
+    width: 100%;
+    background-color: #272736;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.servico2 {
+    width: 100%;
+    background-color: #313030;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.servico3 {
+    width: 100%;
+    background-color: #0a2905;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.servico4 {
+    width: 100%;
+    background-color: #291805;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.servi {
+    position: relative;
+    left: 30%;
+    right: auto;
+    top: 20px;
+}
+
+.servi2 {
+    position: relative;
+    left: 35%;
+    right: auto;
+    top: 20px;
+}
+
+.servi3 {
+    position: relative;
+    left: 36%;
+    right: auto;
+    top: 20px;
+}
+
+.servi4 {
+    position: relative;
+    left: 35%;
+    right: auto;
+    top: 20px;
+}
+
+.inner {
+    padding: 7%;
+}
+
+.inner h1 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.inner p {
+    margin-top: 6%;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.servico-btn {
+    width: 100%;
+    height: 45px;
+    margin-top: 2%;
+    border: 2px solid #f77334;
+    border-radius: 5px;
+    color: #4f8188;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+/*foco na qualidade*/
+
+.foco {
+    padding: 3% 4%;
+}
+
+.foc h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #f77334;
+}
+
+.foc p {
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+
+/*clientes*/
+
+.slideimg {
+    width: 100%;
+    height: 300px;
+    padding: 3% 4%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.slideimg h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #f77334;
+    margin-top: -350px;
+    z-index: 1;
+}
+
+.mySlides {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+/*contatos*/
+
+.contact-form {
+    position: absolute;
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    margin-top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.contact-form h1 {
+    margin-top: 0;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.txtb {
+    border: 1px solid #f77334;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb input,
+.txtb textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn {
+    display: inline-block;
+    background: #9dd3af;
+    padding: 14px 0;
+    color: #f77334;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.mensagem {
+    resize: none;
+}
+
+
+/*rodape*/
+
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    background: linear-gradient(to right, #9dd3af, #4f8188);
+    margin-top: 630px;
+}
+
+.rodape {
+    color: #0a2905;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 3%;
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-icons a:hover {
+    color: #f77334;
+}
+
+.copyright {
+    margin-top: 2%;
+}
