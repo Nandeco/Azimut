@@ -154,7 +154,7 @@ img {
     position: absolute;
     right: 0;
     width: auto;
-    height: 340px;
+    height: 300px;
     z-index: -1000;
     background-size: cover;
 }
@@ -162,23 +162,23 @@ img {
 
 /*imagem*/
 
-.ponte {
+.constru {
     border: 0px solid;
     background-color: #272736;
     border-radius: 0;
     position: absolute;
-    top: 100%;
+    top: 135%;
     margin-top: 40px;
-    width: 350px;
+    width: 100%;
     height: 150px;
-    left: 70px;
+    /*left: 70px;*/
 }
 
 img {
     position: relative;
-    left: 26%;
+    left: 33%;
     right: auto;
-    top: 70px;
+    top: 35px;
 }
 
 
