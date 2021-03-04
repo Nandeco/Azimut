@@ -131,7 +131,7 @@
             }
             
             .title h2 {
-                margin-top: -1em;
+                margin-top: -40px;
                 font-size: 2em;
                 color: #000;
                 font-weight: 700;
@@ -141,6 +141,7 @@
                 font-size: 1.2em;
                 color: #000;
                 font-weight: 400;
+                margin-top: 20px;
             }
             
             .video {
@@ -185,15 +186,17 @@
                 color: #000;
                 font-size: 1.5em;
                 font-weight: 700;
+                margin-top: -35px;
             }
             
             .pb1 p {
                 font-weight: 400;
                 color: 000;
+                margin-top: 20px;
             }
             
             .li {
-                margin-top: 10px;
+                margin-top: 20px;
                 font-weight: 300;
                 font-size: 1.4em;
             }
